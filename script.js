@@ -49,6 +49,24 @@ $(document).ready(function(){
     // });
 
     // owl carousel script
+    
+    
+     typing text animation script
+     var typed = new Typed(".typing", {
+        strings: ["UX Designer", "Developer", "Designer", "Designer", "Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+     var typed = new Typed(".typing-2", {
+        strings: ["Designer", "Developer", "Designer", "Designer", "UI Designer"],
+        typeSpeed: 100,
+       backSpeed: 60,
+        loop: true
+    });
+
+   owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
         loop: true,
